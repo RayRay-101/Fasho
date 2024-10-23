@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(204, 80, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+.navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .nav .nav-logo img {
+    height: 10rem;
+    width: auto;
+}
+
+.navbar .nav .nav-elements ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.navbar .nav .nav-elements ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar .nav .nav-elements ul li a{
+    font-size:2rem;
+
+}
+.navbar .nav  ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.navbar .nav .nav-logins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar .nav .nav-logins ul button {
+    background-color: aquamarine;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.navbar .nav .nav-logins ul button:nth-child(2) {
+    background-color: white;
+}
+
+.navbar .nav .nav-logins ul button li{
+    list-style-type: none;
+}
